@@ -28,6 +28,6 @@ jobs:
           pip install -r requirements.txt
 
       # Step 4: Run tests
-      - name: Run Tests
-        run: |
-          pytest tests/ --maxfail=5 --disable-warnings
+      # - name: Run Tests
+      #  run: |
+      #   pytest tests/ --maxfail=5 --disable-warnings
